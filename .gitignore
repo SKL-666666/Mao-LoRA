@@ -1,0 +1,29 @@
+# ── 模型权重与二进制工具（体积大、可重建，不进 git） ──
+models/
+tools/
+adapter/
+*.gguf
+*.safetensors
+*.bin
+*.pkl
+*.pt
+*.onnx
+
+# ── 训练中间产物 ──
+merged_mao/
+checkpoints/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ── 运行时日志 ──
+*.log
+logs/
+venv/
+.venv/
+
+# ── 系统垃圾 ──
+Thumbs.db
+desktop.ini
+~$*
+.DS_Store
